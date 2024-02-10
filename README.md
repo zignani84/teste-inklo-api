@@ -109,3 +109,7 @@ php artisan serve
 ```
 
 Isso iniciará o servidor Laravel na porta padrão (geralmente 8000 ou 808x). Você pode acessar o servidor em seu navegador visitando http://localhost:8000 (ou :808x) ou http://localhost.
+
+### **OBS.:**
+
+- No front, dentro da página de `Detalhes do usuário` quando clicar em `Salvar Localmente` irá gerar um diretório `data/user.json` dentro de `/public`.
