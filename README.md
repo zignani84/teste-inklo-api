@@ -1,10 +1,10 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+    <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+    <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
 ## About Laravel
@@ -65,8 +65,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Para rodar este servidor localmente, siga estas etapas:
 
-1. Certifique-se de ter o PHP e o Composer instalados em sua máquina.
-2. Clone este repositório para o seu ambiente local usando o seguinte comando:
+1. Certifique-se de ter o `PHP v7.4+` e o `Composer` instalados em sua máquina.
+2. Clone este repositório por HTTPS ou SSH (neste exemplo usa SSH) para o seu ambiente local usando o seguinte comando:
 
 ```bash
 git clone git@github.com:zignani84/teste-inklo-api.git
@@ -112,4 +112,5 @@ Isso iniciará o servidor Laravel na porta padrão (geralmente 8000 ou 808x). Vo
 
 ### **OBS.:**
 
+- Este sistema usa o `Laravel v7.22.2`;
 - No front, dentro da página de `Detalhes do usuário` quando clicar em `Salvar Localmente` irá gerar um diretório `data/user.json` dentro de `/public`.
