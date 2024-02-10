@@ -60,3 +60,52 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # teste-inklo-api
+
+## Como Rodar o Servidor
+
+Para rodar este servidor localmente, siga estas etapas:
+
+1. Certifique-se de ter o PHP e o Composer instalados em sua máquina.
+2. Clone este repositório para o seu ambiente local usando o seguinte comando:
+
+```bash
+git clone git@github.com:zignani84/teste-inklo-api.git
+```
+
+- Navegue até o diretório do projeto:
+
+```bash
+cd teste-inklo-api
+```
+
+- Instale as dependências do projeto executando o seguinte comando:
+
+```bash
+composer install
+```
+
+- Crie um arquivo .env baseado no arquivo .env.example e configure-o com as informações do seu ambiente:
+
+```bash
+cp .env.example .env
+```
+
+- Permissões de escrita no diretório storage
+
+```bash
+sudo chmod -R 777 storage
+```
+
+- Gere a chave de aplicativo executando o seguinte comando:
+
+```bash
+php artisan key:generate
+```
+
+- Inicie o servidor localmente com o seguinte comando:
+
+```bash
+php artisan serve
+```
+
+Isso iniciará o servidor Laravel na porta padrão (geralmente 8000 ou 808x). Você pode acessar o servidor em seu navegador visitando http://localhost:8000 (ou :808x) ou http://localhost.
